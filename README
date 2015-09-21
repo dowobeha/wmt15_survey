@@ -1,0 +1,24 @@
+At WMT 2015, a survey was distributed to attendees.
+
+Two questions were asked:
+
+* Should WMT become a conference?
+* If WMT becomes a conference, what should it be called?
+
+
+
+This repository contains:
+
+* the survey options (survey-options.tsv)
+* the raw tabulated survey results with header data (survey.tsv)
+* this data with columns and rows transposed (transposed.tsv)
+* the raw tabulated survey results without header data (just-votes.tsv)
+* per-option vote totals (just-votes.summary.*.tsv)
+* survey results formated for tabulation at http://condorcet.ericgorr.net (results.txt)
+* scripts to create the above files (*.sh and *.rb)
+* instant runoff voting and condorcet voting tabulated results from http://condorcet.ericgorr.net (results.html)
+* a report of survey results, written in LaTeX (survey.tex, which requires pgf-pie.sty)
+
+
+Many survey respondents did not fully rank all options.
+In the results recorded here, any option which was not ranked by the survey respondent is assigned a rank of 99.
